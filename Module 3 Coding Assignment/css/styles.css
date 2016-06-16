@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+/** Header **/
+#header-nav {
+	color: white;
+	background-color: #6600ff;
+	border-radius: 0;
+	border: 0;
+}
+/** Header **/
+.navbar-brand {
+	color: white;
+	background-color: #6600ff;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {/* restaurant name */
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+.navbar-brand a:hover, navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    background-color: #AAAAAA;
+}
+.nav-list {
+	margin-top: 10px;
+}
+
+.nav-list a {
+	color: white;
+	text-align: center;
+}
+
+.nav-list a:hover {
+	background: #e7e7e7;
+}
+
+.nav-list a:span {
+	color: white;
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+p {
+  background-color: #AAAAAA;
+  width: 100%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+.subtitle {
+	background-color: #AAAAAA;
+	color: black;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.gray-box {
+	color: black;
+	background-color: #AAAAAA;
+	padding: 0px;
+	margin: 0px;
+}
